@@ -1,0 +1,228 @@
+author: Angharad Ugonna
+base_dir: Methods_1
+build_pdf: true
+build_zip: true
+code: 55-409621
+format_version: 2
+license: null
+locale: en
+mathjax_url: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+num_pdf_runs: 1
+root_url: /{base}/{code}/
+structure:
+- build_pdf: false
+  content: []
+  formats:
+  - filetype: html
+    format: default
+    url: index.html
+  is_hidden: false
+  slug: introduction
+  source: .
+  title: Introduction
+  type: introduction
+  url: index.html
+- build_pdf: false
+  content:
+  - build_pdf: true
+    formats:
+    - filetype: html
+      format: default
+      url: module_guide/module_document/index.html
+    - filetype: pdf
+      format: default
+      url: module_guide/module_document/module_document.pdf
+    is_hidden: false
+    pdf_url: module_guide/module_document/module_document.pdf
+    slug: module_document
+    source: ModGuide/ModGuide_Maths_Stats_Methods.tex
+    title: Module Document
+    type: chapter
+    url: module_guide/module_document/index.html
+  formats:
+  - filetype: html
+    format: default
+    url: module_guide/index.html
+  is_hidden: false
+  slug: module_guide
+  source: .
+  title: Module Guide
+  type: part
+  url: module_guide/index.html
+- build_pdf: false
+  content:
+  - build_pdf: false
+    content:
+    - build_pdf: true
+      formats:
+      - filetype: html
+        format: default
+        url: methods/mathematical_methods/HO1.html
+      - filetype: pdf
+        format: default
+        url: methods/mathematical_methods/pdf/functions.pdf
+      is_hidden: false
+      pdf_url: methods/mathematical_methods/pdf/functions.pdf
+      slug: 1_functions
+      source: HO1.html
+      title: 1 Functions
+      type: extractedsection
+      url: methods/mathematical_methods/HO1.html
+    - build_pdf: true
+      formats:
+      - filetype: html
+        format: default
+        url: methods/mathematical_methods/HO2.html
+      - filetype: pdf
+        format: default
+        url: methods/mathematical_methods/pdf/introduction_to_comp.pdf
+      is_hidden: false
+      pdf_url: methods/mathematical_methods/pdf/introduction_to_comp.pdf
+      slug: 2_introduction_to_co
+      source: HO2.html
+      title: 2 Introduction to Complex Numbers
+      type: extractedsection
+      url: methods/mathematical_methods/HO2.html
+    - build_pdf: true
+      formats:
+      - filetype: html
+        format: default
+        url: methods/mathematical_methods/HO3.html
+      - filetype: pdf
+        format: default
+        url: methods/mathematical_methods/pdf/complex_numbers_pola.pdf
+      is_hidden: false
+      pdf_url: methods/mathematical_methods/pdf/complex_numbers_pola.pdf
+      slug: 3_complex_numbers_po
+      source: HO3.html
+      title: '3 Complex Numbers: Polar and Cartesian Coordinates'
+      type: extractedsection
+      url: methods/mathematical_methods/HO3.html
+    - build_pdf: true
+      formats:
+      - filetype: html
+        format: default
+        url: methods/mathematical_methods/0001.html
+      - filetype: pdf
+        format: default
+        url: methods/mathematical_methods/pdf/complex_numbers_expo.pdf
+      is_hidden: false
+      pdf_url: methods/mathematical_methods/pdf/complex_numbers_expo.pdf
+      slug: 4_complex_numbers_ex
+      source: 0001.html
+      title: "4 Complex Numbers: Exponential Form and De Moivre\u2019s Theorem"
+      type: extractedsection
+      url: methods/mathematical_methods/0001.html
+    formats:
+    - filetype: html
+      format: default
+      url: methods/mathematical_methods/index.html
+    is_hidden: false
+    slug: mathematical_methods
+    source: Maths_Methods/2425_Main_Methods_Notes.tex
+    splitlevel: 0
+    title: Mathematical Methods - Calculus
+    type: document
+    url: methods/mathematical_methods/index.html
+  formats:
+  - filetype: html
+    format: default
+    url: methods/index.html
+  is_hidden: false
+  slug: methods
+  source: .
+  title: Methods
+  type: part
+  url: methods/index.html
+- build_pdf: false
+  content:
+  - build_pdf: false
+    content:
+    - build_pdf: true
+      formats:
+      - filetype: html
+        format: default
+        url: professional_mathema/professional_mathe_1/0001.html
+      - filetype: pdf
+        format: default
+        url: professional_mathema/professional_mathe_1/pdf/introduction.pdf
+      is_hidden: false
+      pdf_url: professional_mathema/professional_mathe_1/pdf/introduction.pdf
+      slug: 1_introduction
+      source: 0001.html
+      title: 1 Introduction
+      type: extractedsection
+      url: professional_mathema/professional_mathe_1/0001.html
+    - build_pdf: true
+      formats:
+      - filetype: html
+        format: default
+        url: professional_mathema/professional_mathe_1/0002.html
+      - filetype: pdf
+        format: default
+        url: professional_mathema/professional_mathe_1/pdf/explaining_our_work_.pdf
+      is_hidden: false
+      pdf_url: professional_mathema/professional_mathe_1/pdf/explaining_our_work_.pdf
+      slug: 2_explaining_our_wor
+      source: 0002.html
+      title: 2 Explaining our work - to the right audience
+      type: extractedsection
+      url: professional_mathema/professional_mathe_1/0002.html
+    - build_pdf: true
+      formats:
+      - filetype: html
+        format: default
+        url: professional_mathema/professional_mathe_1/0003.html
+      - filetype: pdf
+        format: default
+        url: professional_mathema/professional_mathe_1/pdf/equals_means_equals.pdf
+      is_hidden: false
+      pdf_url: professional_mathema/professional_mathe_1/pdf/equals_means_equals.pdf
+      slug: 3_equals_means_equal
+      source: 0003.html
+      title: 3 Equals means Equals
+      type: extractedsection
+      url: professional_mathema/professional_mathe_1/0003.html
+    - build_pdf: true
+      formats:
+      - filetype: html
+        format: default
+        url: professional_mathema/professional_mathe_1/0004.html
+      - filetype: pdf
+        format: default
+        url: professional_mathema/professional_mathe_1/pdf/statements_in_mathem.pdf
+      is_hidden: false
+      pdf_url: professional_mathema/professional_mathe_1/pdf/statements_in_mathem.pdf
+      slug: 4_statements_in_math
+      source: 0004.html
+      title: 4 Statements in Mathematics
+      type: extractedsection
+      url: professional_mathema/professional_mathe_1/0004.html
+    formats:
+    - filetype: html
+      format: default
+      url: professional_mathema/professional_mathe_1/index.html
+    is_hidden: false
+    slug: professional_mathe_1
+    source: Maths_Methods/2425_Methods_ProfessionalMaths_Main.tex
+    splitlevel: 0
+    title: Professional Mathematics
+    type: document
+    url: professional_mathema/professional_mathe_1/index.html
+  formats:
+  - filetype: html
+    format: default
+    url: professional_mathema/index.html
+  is_hidden: false
+  slug: professional_mathema
+  source: .
+  title: Professional Mathematics
+  type: part
+  url: professional_mathema/index.html
+themes:
+- path: default
+  source: default
+  title: Default
+title: Mathematical and Statistical Methods
+year: 2024-2025
+zipfile: mathematical_and_sta.zip
